@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Noto Serif Devanagari', 'serif';
+}
+
+p {
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 5; /* Limits the number of lines */
+  -webkit-box-orient: vertical;
+}
